@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Thaissa Macedo D'aquila | Perfil Profissional</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --lilas: #b497d6;
+      --lilas-escuro: #7a5c9e;
+      --cinza: #444;
+      --fundo: #f7f4fb;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+    }
+
+    body {
+      background: var(--fundo);
+      color: var(--cinza);
+      line-height: 1.6;
+    }
+
+    header {
+      background: linear-gradient(135deg, var(--lilas), var(--lilas-escuro));
+      color: white;
+      padding: 80px 20px;
+      text-align: center;
+      animation: fadeDown 1s ease;
+    }
+
+    @keyframes fadeDown {
+      from { opacity: 0; transform: translateY(-20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    header h1 {
+      font-size: 3rem;
+      font-weight: 700;
+    }
+
+    header h2 {
+      margin-top: 10px;
+      font-weight: 300;
+      font-size: 1.2rem;
+    }
+
+    .btn {
+      background: white;
+      color: var(--lilas-escuro);
+      padding: 12px 22px;
+      border-radius: 30px;
+      font-weight: 600;
+      text-decoration: none;
+      transition: all 0.3s ease;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+    }
+
+    .btn:hover {
+      transform: translateY(-3px) scale(1.03);
+      box-shadow: 0 12px 25px rgba(0,0,0,0.25);
+    }
+
+    .btn.outline {
+      background: transparent;
+      border: 2px solid white;
+      color: white;
+    }
+
+    main {
+      max-width: 1100px;
+      margin: auto;
+      padding: 40px 20px;
+      display: grid;
+      grid-template-columns: 1fr 2fr;
+      gap: 30px;
+      animation: fadeUp 1.2s ease;
+    }
+
+    @keyframes fadeUp {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    .card {
+      background: white;
+      border-radius: 16px;
+      padding: 25px;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 15px 40px rgba(0,0,0,0.12);
+    }
+
+    .perfil h3,
+    .conteudo h3 {
+      color: var(--lilas-escuro);
+      margin-bottom: 15px;
+      font-size: 1.3rem;
+    }
+
+    .perfil ul {
+      list-style: none;
+    }
+
+    .perfil ul li {
+      margin-bottom: 10px;
+    }
+
+    .tag {
+      display: inline-block;
+      background: var(--lilas);
+      color: white;
+      padding: 6px 12px;
+      border-radius: 20px;
+      font-size: 0.85rem;
+      margin: 5px 5px 0 0;
+      transition: transform 0.2s ease;
+    }
+
+    .tag:hover {
+      transform: scale(1.1);
+    }
+
+    .linha {
+      margin-bottom: 25px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 30px;
+      background: white;
+      color: #777;
+      font-size: 0.9rem;
+    }
+
+    @media (max-width: 900px) {
+      main {
+        grid-template-columns: 1fr;
+      }
+
+      header h1 {
+        font-size: 2.2rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Thaissa Macedo D'aquila</h1>
+    <h2>Portfólio Profissional • Estratégia, Design e Sustentabilidade</h2>
+    <p style="max-width:720px;margin:25px auto 0;font-weight:300;opacity:.95">
+      Atuação multidisciplinar que conecta agronegócio, legislação, marketing, design e moda. Uma trajetória construída entre estratégia, estética e responsabilidade.
+    </p>
+    <div style="margin-top:35px; display:flex; gap:18px; justify-content:center; flex-wrap:wrap;">
+      <a href="Currículo.pdf" download download class="btn">📄 Baixar Currículo</a>
+      <a href="https://www.linkedin.com/in/thaíssa-m-a201a830b" target="_blank" class="btn outline">LinkedIn</a>
+    </div>
+  </header>
+
+  <main>
+    <section class="perfil card">
+      <h3>Perfil Profissional</h3>
+      <p>
+        Profissional com base técnica sólida e visão criativa, construída a partir de formações em agronegócio, logística, zootecnia, marketing e legislação agrária e ambiental. Une pensamento analítico, organização estratégica e sensibilidade estética.
+      </p>
+
+      <div class="linha"></div>
+
+      <h3>Formação</h3>
+      <ul>
+        <li>• Técnico em Agronegócio</li>
+        <li>• Logística</li>
+        <li>• Zootecnia</li>
+        <li>• Marketing</li>
+        <li>• Legislação Agrária e Ambiental</li>
+        <li>• Graduação em Moda (em andamento – UMFG)</li>
+      </ul>
+
+      <div class="linha"></div>
+
+      <h3>Competências-Chave</h3>
+      <span class="tag">Design Estratégico</span>
+      <span class="tag">Planejamento</span>
+      <span class="tag">Criatividade Aplicada</span>
+      <span class="tag">Gestão</span>
+      <span class="tag">Comunicação</span>
+      <span class="tag">Sustentabilidade</span>
+    </section>
+
+    <section class="conteudo">
+      <div class="card linha">
+        <h3>Posicionamento Profissional</h3>
+        <p>
+          Atua na interseção entre áreas técnicas e criativas, com facilidade para integrar gestão, comunicação visual, agronegócio sustentável e projetos ligados à moda e design contemporâneo.
+        </p>
+      </div>
+
+      <div class="card linha">
+        <h3>Diferenciais</h3>
+        <p>
+          Visão estratégica aliada à estética. Capacidade analítica com criatividade aplicada. Domínio técnico em legislação, cadeias produtivas e logística, traduzidos em soluções visuais e mercadológicas consistentes.
+        </p>
+      </div>
+
+      <div class="card linha">
+        <h3>Áreas de Interesse</h3>
+        <p>
+          Moda • Design • Sustentabilidade • Agronegócio • Branding • Comunicação Visual • Projetos Interdisciplinares
+        </p>
+      </div>
+
+      <div class="card">
+        <h3>Objetivo Profissional</h3>
+        <p>
+          Consolidar uma carreira de referência em projetos que integrem estratégia, sustentabilidade, moda e design, atuando de forma ética, inovadora e alinhada às demandas contemporâneas do mercado.
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    © 2026 • Thaissa Macedo D'aquila • Portfólio Profissional
+  </footer>
+
+</body>
+</html>
